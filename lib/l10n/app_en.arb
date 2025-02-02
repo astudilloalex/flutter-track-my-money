@@ -1,0 +1,17 @@
+{
+    "@@locale": "en",
+    "budgets": "Budgets",
+    "@budgets": {},
+    "continueWithGoogle": "Continue with Google",
+    "@continueWithGoogle": {},
+    "currentBalance": "Current balance",
+    "@currentBalance": {},
+    "goals": "Goals",
+    "@goals": {},
+    "home": "Home",
+    "@home": {},
+    "profile": "Profile",
+    "@profile": {},
+    "transactions": "Transactions",
+    "@transactions": {}
+}
