@@ -1,3 +1,4 @@
+import 'package:track_my_money/src/goal/domain/goal_type_enum.dart';
 import 'package:track_my_money/src/user/domain/user.dart';
 
 class Goal {
@@ -6,6 +7,7 @@ class Goal {
     required this.createdAt,
     this.currentAmount = 0,
     required this.deadline,
+    required this.goalType,
     this.id = 0,
     required this.name,
     this.targetAmount = 1000,
@@ -18,6 +20,7 @@ class Goal {
   final DateTime createdAt;
   final double currentAmount;
   final DateTime deadline;
+  final GoalTypeEnum goalType;
   final int id;
   final String name;
   final double targetAmount;
@@ -30,6 +33,7 @@ class Goal {
     DateTime? createdAt,
     double? currentAmount,
     DateTime? deadline,
+    GoalTypeEnum? goalType,
     int? id,
     String? name,
     double? targetAmount,
@@ -42,6 +46,7 @@ class Goal {
       createdAt: createdAt ?? this.createdAt,
       currentAmount: currentAmount ?? this.currentAmount,
       deadline: deadline ?? this.deadline,
+      goalType: goalType ?? this.goalType,
       id: id ?? this.id,
       name: name ?? this.name,
       targetAmount: targetAmount ?? this.targetAmount,

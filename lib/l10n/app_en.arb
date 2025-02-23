@@ -1,17 +1,125 @@
 {
     "@@locale": "en",
+    "addCategory": "Add category",
+    "@addCategory": {},
+    "addGoal": "Add goal",
+    "@addGoal": {},
+    "addTransaction": "Add transaction",
+    "@addTransaction": {},
+    "amount": "Amount",
+    "@amount": {},
     "budgets": "Budgets",
     "@budgets": {},
+    "categories": "Categories",
+    "@categories": {},
+    "category": "Category",
+    "@category": {},
+    "comparison": "Comparison",
+    "@comparison": {},
+    "date": "Date",
+    "@date": {},
+    "description": "Description",
+    "@description": {},
+    "cancel": "Cancel",
+    "@cancel": {},
+    "checkTheName": "Check the name",
+    "@checkTheName": {},
+    "close": "Close",
+    "@close": {},
     "continueWithGoogle": "Continue with Google",
     "@continueWithGoogle": {},
+    "created": "Created",
+    "@created": {},
+    "currentAmount": "Current amount",
+    "@currentAmount": {},
     "currentBalance": "Current balance",
     "@currentBalance": {},
+    "deadline": "Deadline",
+    "@deadline": {},
+    "editCategory": "Edit category",
+    "@editCategory": {},
+    "editGoal": "Edit goal",
+    "@editGoal": {},
+    "editTransaction": "Edit transaction",
+    "@editTransaction": {},
+    "expense": "Expense",
+    "@expense": {},
+    "expenses": "Expenses",
+    "goalCompletedWithXPercentage": "Goal completed with {percentage}%",
+    "@goalCompletedWithXPercentage": {
+        "placeholders": {
+            "percentage": {
+                "type": "String"
+            }
+        }
+    },
     "goals": "Goals",
     "@goals": {},
+    "goalXCompleted": "Goal {percentage}% completed",
+    "@goalXCompleted": {
+        "placeholders": {
+            "percentage": {
+                "type": "String"
+            }
+        }
+    },
+    "@expenses": {},
     "home": "Home",
     "@home": {},
+    "income": "Income",
+    "@income": {},
+    "incomes": "Incomes",
+    "@incomes": {},
+    "invalidAmount": "Invalid amount",
+    "@invalidAmount": {},
+    "invalidName": "Invalid name",
+    "@invalidName": {},
+    "name": "Name",
+    "@name": {},
+    "noDescription": "No description",
+    "@noDescription": {},
+    "preferences": "Preferences",
+    "@preferences": {},
     "profile": "Profile",
     "@profile": {},
+    "progress": "Progress",
+    "@progress": {},
+    "save": "Save",
+    "@save": {},
+    "selectCategory": "Select category",
+    "@selectCategory": {},
+    "selectTheType": "Select the type",
+    "@selectTheType": {},
+    "settings": "Settings",
+    "@settings": {},
+    "targetAmount": "Target amount",
+    "@targetAmount": {},
+    "thereAreNoGoalsToShow": "There are no goals to show",
+    "@thereAreNoGoalsToShow": {},
+    "transaction": "Transaction",
+    "@transaction": {},
     "transactions": "Transactions",
-    "@transactions": {}
+    "@transactions": {},
+    "transactionTrend": "Transaction trend",
+    "@transactionTrend": {},
+    "type": "Type",
+    "@type": {},
+    "update": "Update",
+    "@update": {},
+    "xDaysLeft": "{days} days left",
+    "@xDaysLeft": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+    "xDaysOver": "{days} days over",
+    "@xDaysOver": {
+        "placeholders": {
+            "days": {
+                "type": "int"
+            }
+        }
+    }
 }

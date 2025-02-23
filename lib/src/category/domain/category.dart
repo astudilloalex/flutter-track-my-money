@@ -5,6 +5,7 @@ import 'package:track_my_money/src/user/domain/user.dart';
 
 class Category {
   const Category({
+    this.active = true,
     this.budgets = const <Budget>[],
     this.code = '',
     required this.createdAt,
@@ -17,6 +18,7 @@ class Category {
     this.user,
   });
 
+  final bool active;
   final List<Budget> budgets;
   final String code;
   final DateTime createdAt;
@@ -29,6 +31,7 @@ class Category {
   final String userCode;
 
   Category copyWith({
+    bool? active,
     List<Budget>? budgets,
     String? code,
     DateTime? createdAt,
@@ -41,6 +44,7 @@ class Category {
     String? userCode,
   }) {
     return Category(
+      active: active ?? this.active,
       budgets: budgets ?? this.budgets,
       code: code ?? this.code,
       createdAt: createdAt ?? this.createdAt,
